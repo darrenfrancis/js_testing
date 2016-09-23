@@ -14,11 +14,11 @@ describe ("whatCanIDrink", function() {
 		});
 
 		it ('should pass 20 as an argument and return Drink coke', function() {
-			expect(whatCanIDrink(20)).toBe("drink beer");
+			expect(whatCanIDrink(20)).toBe("drink Beer");
 		});
 
 		it("should pass some text as an argument and return 'Sorry I didnt recognize...'", function(){
-			expect(whatCanIDrink(wally)).toBe("Sorry!!. I can't tell what drink because that age is incorrect!");
+			expect(whatCanIDrink("wally")).toBe("Sorry!!. I can't tell what drink because that age is incorrect!");
 		});
 	});
 });
